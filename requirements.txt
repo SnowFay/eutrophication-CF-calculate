@@ -1,0 +1,9 @@
+geopandas>=1.0
+fiona>=1.9
+pyproj>=3.6
+shapely>=2.0
+pandas>=2.2
+tabulate>=0.9
+openpyxl>=3.1
+xarray>=2023.0
+netCDF4>=1.6

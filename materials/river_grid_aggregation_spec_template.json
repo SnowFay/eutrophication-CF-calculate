@@ -1,0 +1,38 @@
+{
+  "sources": {
+    "hydrorivers": {
+      "mapping_path": "data/processed/grid_0p1/grid_hydrorivers_china_0p1_mapping.parquet",
+      "id_col": "HYRIV_ID",
+      "weight_col": "overlap_length_km",
+      "sum": [
+        "overlap_length_km"
+      ],
+      "weighted_mean": [
+      ],
+      "mean": [
+      ],
+      "first": [
+      ],
+      "rename": {
+        "overlap_length_km": "river_length_km"
+      }
+    },
+    "riveratlas": {
+      "mapping_path": "data/processed/grid_0p1/grid_riveratlas_china_0p1_mapping.parquet",
+      "id_col": "HYRIV_ID",
+      "weight_col": "overlap_length_km",
+      "sum": [
+        "overlap_length_km"
+      ],
+      "weighted_mean": [
+      ],
+      "mean": [
+      ],
+      "first": [
+      ],
+      "rename": {
+        "overlap_length_km": "river_length_km"
+      }
+    }
+  }
+}

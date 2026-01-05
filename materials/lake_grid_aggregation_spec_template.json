@@ -1,0 +1,44 @@
+{
+  "sources": {
+    "hydrolakes": {
+      "mapping_path": "data/processed/grid_0p1/grid_hydrolakes_china_0p1_mapping.parquet",
+      "id_col": "Hylak_id",
+      "weight_col": "overlap_area_km2",
+      "sum": [
+        "overlap_area_km2"
+      ],
+      "weighted_mean": [
+        "Res_time",
+        "Depth_avg"
+      ],
+      "mean": [
+      ],
+      "first": [
+      ],
+      "rename": {
+        "overlap_area_km2": "lake_area_km2_in_cell",
+        "Res_time": "res_time_area_weighted",
+        "Depth_avg": "depth_avg_area_weighted"
+      }
+    },
+    "lakeatlas": {
+      "mapping_path": "data/processed/grid_0p1/grid_lakeatlas_china_0p1_mapping.parquet",
+      "id_col": "Hylak_id",
+      "weight_col": "overlap_area_km2",
+      "sum": [
+        "overlap_area_km2"
+      ],
+      "weighted_mean": [
+        "Res_time"
+      ],
+      "mean": [
+      ],
+      "first": [
+      ],
+      "rename": {
+        "overlap_area_km2": "lake_area_km2_in_cell",
+        "Res_time": "res_time_area_weighted"
+      }
+    }
+  }
+}
